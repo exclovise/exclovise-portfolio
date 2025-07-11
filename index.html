@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exclovise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #f1f1f1;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      animation: slideIn 0.8s ease forwards;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      max-width: 700px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .socials {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    a {
+      color: #61dafb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      background: #1e1e1e;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey, I’m <strong>Exclovise</strong>! 👋</h1>
+  <p>
+    I’m a <strong>15 y/o developer</strong> who does both <strong>front-end</strong> and <strong>back-end</strong> work.<br />
+    I mess around with a bunch of languages like <code>JavaScript</code>, <code>Python</code>, <code>HTML/CSS</code>, <code>Node.js</code>, and more — always learning something new. 🚀
+  </p>
+  <p>
+    I love building cool stuff, whether it’s <strong>web apps</strong>, <strong>APIs</strong>, or just clean, functional UIs.<br />
+    <strong>Full-stack</strong> is kinda my thing.
+  </p>
+  <div class="socials">
+    <p>Socials 🌐</p>
+    <p>
+      📺 <strong>YouTube:</strong>
+      <a href="https://www.youtube.com/@exclovisemc" target="_blank">@exclovisemc</a><br />
+      💬 <strong>Discord:</strong> <code>exclovise</code>
+    </p>
+  </div>
+</body>
+</html>
