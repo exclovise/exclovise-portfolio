@@ -1,27 +1,53 @@
-# exclovise • Portfolio 💼
+<h1 align="center">🌐 exclovise • Developer Portfolio</h1>
 
-Welcome to my personal developer portfolio, built with ❤️ and hosted on [GitHub Pages](https://exclovise.github.io/portfolio/).
+<p align="center">
+  A modern portfolio showcasing my web tools, Minecraft projects, and Eaglercraft integrations — built and hosted with GitHub Pages.
+</p>
 
-This site showcases my projects, skills, and web tools — including Eaglercraft utilities, Minecraft integrations, and full-stack apps. It's a hub for everything I'm building and sharing with the community.
+<p align="center">
+  <a href="https://exclovise.github.io/portfolio/" target="_blank"><strong>🔗 Visit Live Portfolio</strong></a> • 
+  <a href="https://exclovise.com" target="_blank">exclovise.com (custom domain)</a>
+</p>
 
-## 🔗 Live Site
+---
 
-🌍 **[exclovise.github.io/portfolio](https://exclovise.github.io/portfolio/)**  
-👉 Soon to be accessible at **[exclovise.com](https://exclovise.com)**
+## ✨ Overview
 
-## 🛠️ Built With
+This is my personal developer portfolio — a place where I showcase:
 
-- HTML5 & CSS3
-- JavaScript
-- Responsive design
-- GitHub Pages for deployment
+- 🧱 Minecraft & Eaglercraft tools
+- 🌐 Web utilities & experiments
+- 💡 Creative ideas and side projects
+- 🔧 Full-stack and backend apps (coming soon)
 
-## 📁 Features
+Everything is open source, modular, and built for speed and clarity.
 
-- Clean, responsive layout
-- Project cards with links to GitHub repos
-- Organized sections for:
-  - Web development
-  - Minecraft / Eaglercraft tools
-  - Experiments and demos
-- Easy to update and extend
+---
+
+## 🧰 Tech Stack
+
+| Frontend       | Hosting        | Tools          |
+|----------------|----------------|----------------|
+| HTML5 + CSS3   | GitHub Pages   | JavaScript     |
+| Responsive UI  | Cloudflare DNS | Custom domains |
+
+---
+
+## 🎯 Features
+
+- ✅ Minimal and fast-loading layout
+- ✅ Responsive for all screen sizes
+- ✅ Project cards with icons and live links
+- ✅ Easy to extend and maintain
+- ✅ Integrated with custom domain via Cloudflare
+
+---
+
+## 🚀 Getting Started
+
+Clone this repo and make it your own:
+
+```bash
+git clone https://github.com/exclovise/portfolio.git
+cd portfolio
+
